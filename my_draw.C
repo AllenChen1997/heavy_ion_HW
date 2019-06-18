@@ -11,7 +11,7 @@
 #define B 2.49968
 #define fR 6.62
 #define maxpt 	1000  //must be larger than 100
-#define mode 1
+#define mode 0
 using namespace std;
 
 class ball{
@@ -43,7 +43,7 @@ void my_draw(string filename){
 	int d, xs;
 	int i=0;
 	double_t R1, R2;
-	TH2F* hr1r2 = new TH2F("r1r2","r1-r2",70,0,14,70,0,14);
+	TH2F* hr1r2 = new TH2F("r1r2","r1-r2",200,0,20,200,0,20);
 	while( getline(infile,line) ){
 		//cout << line << endl;
 		i++;
