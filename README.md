@@ -8,7 +8,7 @@
 	.L my_draw.C
 	my_draw("data.txt")
 
-you will see the plot on scream and the saved data canvas.png.
+you will see the plot on screen and the saved data canvas.png.
 
 make sure the data is following the form.
 
