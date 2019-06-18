@@ -10,7 +10,7 @@
 
 you will see the plot on screen and the saved data canvas.png.
 
-make sure the data is following the form.
+make sure the data.txt is following the form. the second line number is signn or xsect.
 
 
 # about the my_draw.C
